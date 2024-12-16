@@ -1,0 +1,50 @@
+input:focus {
+  border-color: #ffcc00;
+}
+
+button {
+  padding: 15px 25px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+.resultado {
+  margin-top: 20px;
+  display: none;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resultado p {
+  font-size: 18px;
+  color: #003366;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#estado {
+  font-size: 18px;
+  color: #003366;
+}
+
+#ubicacion {
+  font-size: 16px;
+  color: #ffcc00;
+}
+
+#horaEstimada {
+  font-size: 16px;
+  color: #ffcc00;
+}

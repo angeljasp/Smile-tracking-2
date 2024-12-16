@@ -1,0 +1,29 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguimiento de Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Seguimiento de Pedido</h1>
+      <p>Ingresa tu número de seguimiento para obtener el estado de tu entrega.</p>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="numeroSeguimiento" placeholder="Número de seguimiento">
+      <button onclick="obtenerSeguimiento()">Ver Estado</button>
+    </div>
+
+    <div id="resultado" class="resultado">
+      <p id="estado">Estado: </p>
+      <p id="ubicacion">Ubicación: </p>
+      <p id="horaEstimada">Hora estimada: </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
